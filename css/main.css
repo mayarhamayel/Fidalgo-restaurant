@@ -464,7 +464,7 @@ ul li{
 
 /*book a table*/
 .book-a-table{
-    padding-top: 8%;
+    padding-top: 7%;
     position: relative;
 }
 
@@ -479,7 +479,7 @@ ul li{
     position: absolute;
     top: 30%;
     left: 32%;
-    overflow: hidden;
+    
      
 }
 .book-a-table .contant span{
@@ -568,6 +568,8 @@ ul li{
     }
     
 }
+/* book a table section end*/
+
 
 
 
