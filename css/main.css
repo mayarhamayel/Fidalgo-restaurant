@@ -5,6 +5,7 @@
     --mainColor:#152a3a;
     --mainFont:  "Jost", sans-serif;
     --color1:#B58C67;
+    --color2:#0D1E2B;
     --CormorantFont: "Cormorant", serif;
     --mrsFont:"Mrs Saint Delafield", cursive;
 }
@@ -154,7 +155,7 @@ ul li{
 .social ul li {
    text-transform: uppercase;
 }
-.social ul li a::after{
+.social ul li .special::after{
     content: "";
     border: 1px solid var(--color1);
     display: inline-flex;
@@ -353,7 +354,7 @@ ul li{
   border: none;
 }
 
-.from-our-menu h6{
+.from-our-menu h6 {
    color: white;
     font-family: var(--mainFont);
     font-size: 12px;
@@ -361,7 +362,7 @@ ul li{
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-.from-our-menu .item h2{
+.from-our-menu .item h2 a{
     color: rgb(88, 88, 88);
     font-family: var(--CormorantFont);
     font-size: 100px;
@@ -369,6 +370,7 @@ ul li{
     text-transform: uppercase;
     letter-spacing: 4px;
     transition: color 1s ease;
+    text-decoration: none;
 }
 .from-our-menu .item span{
     color: rgb(88, 88, 88);
@@ -376,7 +378,7 @@ ul li{
     transition: color .8s ease;
     
 }
-.from-our-menu .item:hover h2,
+.from-our-menu .item:hover h2 a,
 .from-our-menu .item:hover span
 {
     color: white;
@@ -411,7 +413,7 @@ ul li{
 /*host to events*/
 .host-to-events{
     margin-top: 109px;
-    background-color:#0D1E2B;
+    background-color:var(--color2);
     width: 100%;
     height: auto;
     padding: 34px;
@@ -570,7 +572,174 @@ ul li{
 }
 /* book a table section end*/
 
+/*footer*/
+.footerColors{
+    width: 100%;
+   margin-bottom: -28px;
+}
+
+.footer{
+  padding-top: 78px;
+    background-color: var(--color2);
+    gap: 86px;
+}
+
+.footer .container .item{
+    color: white;
+}
+.footer .container .item1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer .container .item2{
+    border-left: 1.5px solid rgb(116, 116, 116);
+    border-right: 1.5px solid rgb(116, 116, 116);
+}
+
+@media (max-width:767px){
+
+    .footer .container .item2{
+         border-left:0;
+         border-right: 0;
+        border-top: 1.5px solid rgb(116, 116, 116);
+        border-bottom: 1.5px solid rgb(116, 116, 116);
+    }
+
+    .footer .container .row{
+        gap: 10px;
+    }
+    
+ 
+}
+     
+.footer .bottom-section .img img{
+       width: 72px;
+       margin-bottom: 44px;
+}
+.footer .bottom-section .img{
+    position: relative;
+}
+.footer .bottom-section .img::after{
+    
+    content: "";
+    width: 1900%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 18px;
+    right: 38px;
+}
+.footer .bottom-section .img::before{
+    content: "";
+    width: 1900%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 18px;
+    left: 85px;
+}
+
+@media (max-width:1012px){
+    .footer .bottom-section .img::after{
+    content: "";
+    width: 1371%;
+    
+   }
+
+    .footer .bottom-section .img::before{
+    content: "";
+    width: 1371%;
+    
+   }
+
+}
+
+@media (max-width:778px){
+    .footer .bottom-section .img::after{
+    content: "";
+    width: 1037%;
+    
+   }
+
+    .footer .bottom-section .img::before{
+    content: "";
+    width: 1037%;
+    
+   }
+
+}
+
+@media (max-width:768px){
+    .footer .bottom-section .img::after{
+    content: "";
+    width: 314%;
+    right: 82px;
+    
+   }
+
+    .footer .bottom-section .img::before{
+    content: "";
+    width: 325%;
+    
+   }
+
+}
+
+@media (max-width:610px){
+    .footer .bottom-section .img::after{
+    content: "";
+    
+    width: 225%;
+    
+   }
+
+    .footer .bottom-section .img::before{
+    content: "";
+    width: 225%;
+    
+   }
+
+}
+@media (max-width:610px){
+    .footer .bottom-section .img::after{
+    content: "";
+    
+    width: 150%;
+    
+   }
+
+    .footer .bottom-section .img::before{
+    content: "";
+    width: 150%;
+    
+   }
+
+}
+.footer .social {
+    margin-top: -118px;
+    gap: 349px;
+}
+.footer .social ul{
+    margin-top: -10px;
+}
+.footer .social ul a {
+     font-size: 10px;
+}
+.footer .social p{
+    font-size: 10px;
+}
+@media (max-width:1013px){
+    .footer .social {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
-
+/*footer end*/
 
