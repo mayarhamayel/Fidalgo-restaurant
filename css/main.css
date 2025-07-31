@@ -813,6 +813,45 @@ ul li{
     padding-bottom: 20px;
    }
    /*cooking section end*/
+   /*contact section*/
+   .menu-page .contact{
+    padding-top: 180px;
+    padding-bottom: 180px;
+   }
+   .menu-page .contact div img{
+    width: 450px;
+    border-top-right-radius: 337px;
+    border-top-left-radius: 337px;
+    border: 2px solid #98785a;
+    padding: 20px;
+   }
+   .menu-page .contact .text h2{
+    font-family: var(--mainFont);
+    color: white;
+    text-transform: uppercase;
+   
+   }
+   .menu-page .contact .text h5{
+     font-family: var(--mainFont);
+    color: white;
+    text-transform: uppercase;
+   }
+   .menu-page .contact .text p{
+     font-family: var(--mainFont);
+     color: rgb(169, 167, 167);
+   }
+  .menu-page .contact .text .diraction a{
+     font-family: var(--mainFont);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1.5px solid #98785a;
+
+
+  }
+
+
+
 
    /*footer*/
 
