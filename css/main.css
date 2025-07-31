@@ -856,6 +856,8 @@ ul li{
    /*footer*/
 
    .menu-page .footer{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
     background-color: #0c1315;
    }
 
