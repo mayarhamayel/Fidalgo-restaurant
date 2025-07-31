@@ -743,3 +743,30 @@ ul li{
 
 /*footer end*/
 
+
+/* menu page*/
+
+/*header*/
+.menu-page .navbar{
+    position: relative;
+    height: 80vh;
+    background-image: url("../assets/imgs/menu/menuBackground.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  
+}
+.menu-page .navbar .navbar-brand{
+    margin-top: -1.5%;
+}
+.menu-page .navbar .container-fluid {
+  background-color: transparent;
+  margin-top: -30%;
+}
+.menu-page .hero h1{
+    position: absolute;
+    top: 34%;
+    right: 39%;
+}
+ 
+
