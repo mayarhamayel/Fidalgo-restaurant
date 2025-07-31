@@ -810,5 +810,13 @@ ul li{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 20px;
+   }
+   /*cooking section end*/
+
+   /*footer*/
+
+   .menu-page .footer{
+    background-color: #0c1315;
    }
 
