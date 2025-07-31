@@ -801,4 +801,14 @@ ul li{
     letter-spacing: 4px;
      color: white;
    }
+   /*cooking section*/
+
+   .cooking{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../assets/imgs/menu/cooking.webp");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   }
 
