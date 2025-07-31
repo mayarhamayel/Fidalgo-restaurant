@@ -466,7 +466,7 @@ ul li{
 
 /*book a table*/
 .book-a-table{
-    padding-top: 7%;
+    padding-top: 116px;
     position: relative;
 }
 
@@ -571,6 +571,11 @@ ul li{
     
 }
 /* book a table section end*/
+/*client*/
+.client{
+    padding-top: 151px;
+    padding-bottom: 130px;
+}
 
 /*footer*/
 .footerColors{
