@@ -755,7 +755,7 @@ ul li{
 }
 
 /*header*/
-.menu-page .navbar{
+.menu-page .navbar,.meet-the-chef .navbar{
     position: relative;
     height: 80vh;
     background-image: url("../assets/imgs/menu/menuBackground.webp");
@@ -764,10 +764,14 @@ ul li{
     background-position: center;
   
 }
-.menu-page .navbar .navbar-brand{
+.meet-the-chef .navbar{
+        background-image: url("../assets/imgs/meetTheChef/backeground.webp");
+
+}
+.menu-page .navbar .navbar-brand,.meet-the-chef .navbar .navbar-brand {
     margin-top: -1.5%;
 }
-.menu-page .navbar .container-fluid {
+.menu-page .navbar .container-fluid ,.meet-the-chef .navbar .container-fluid {
   background-color: transparent;
    margin-bottom: 380px;
 }
@@ -864,5 +868,10 @@ ul li{
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     background-color: #0c1315;
+   }
+   /*meet the chef page*/
+
+   .meet-the-chef{
+    background-color: #0e0d0a;
    }
 
