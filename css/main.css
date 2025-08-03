@@ -874,4 +874,58 @@ ul li{
    .meet-the-chef{
     background-color: #0e0d0a;
    }
+    .meet-our-team{
+        padding-top: 120px;
+    }
+   
+
+    .meet-the-chef .meet-our-team h2{
+        color: white;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family: var(--mainFont);
+        
+    }
+     .meet-the-chef .meet-our-team p{
+        color: rgb(149, 145, 145);
+        font-family: var(--mainFont);
+
+     }
+      .meet-the-chef .meet-our-team .chefs{
+        padding-top: 90px;
+      }
+      .meet-the-chef .meet-our-team .chefs .chef{
+        border: .5px solid #c7a069;
+        padding: 50px;
+      }
+       @media (max-width:767px){
+        .meet-the-chef .meet-our-team .chefs .chef{
+            width: 300px; 
+        }
+    }
+     .meet-the-chef .meet-our-team .chefs .chef img{
+        width: 230px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 60px;
+        transition: all 0.6s ease;
+      
+     }
+     .meet-the-chef .meet-our-team .chefs .chef:hover img{
+         border-top:1px solid #c7a069;
+        border-right:1px solid #c7a069;
+       padding: 3px;
+        
+     }
+
+     .meet-the-chef .meet-our-team .chefs .chef .contant{
+        color: white;
+        font-family: var(--mainFont);
+
+
+     }
+     .meet-the-chef .meet-our-team .chefs .chef .contant .name{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 20px;
+     }
 
